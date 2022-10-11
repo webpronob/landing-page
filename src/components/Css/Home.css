@@ -36,10 +36,7 @@
     align-items: center;
     gap: 55px;
 }
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
+
   .parant-slider{
     display: flex;
     justify-content: center;
@@ -282,6 +279,8 @@ margin: 0 auto;
         display: flex;
         flex-direction: column;
         gap: 0px;
+        padding-top: 85px;
+    padding-bottom: 54px;
     }
     .parant-feature img {
         width: 334px;
@@ -345,7 +344,7 @@ margin: 0 auto;
     }
     .swiper {
         width: 100%;
-        height: 468px;
+        height: 468px !important;
     }
     .image-container img{
         width: 296px !important;
